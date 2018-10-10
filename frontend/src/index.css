@@ -1,0 +1,55 @@
+body {
+    /*background-color: black;*/
+}
+.color1{
+    border-bottom: 1px solid darkred;
+    width: 100%;
+    z-index: 5000;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.navButton{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 2em;
+}
+
+.divider1{
+     background-color: red;
+}
+
+.sliderButton{
+    background-color: black;
+    border: 1px solid red;
+    opacity: 0.6;
+}
+
+.img-wrap {
+    width: auto;
+    height: 250px;
+}
+
+h3{
+    color: red;
+}
+h5{
+    color: red;
+}
+
+.divBlock {
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+    flex-direction: row;
+}
+
+.divMenu {
+    margin-top: 6em;
+    display: flex;
+    text-align: center;
+}
+
+.info{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 1px solid darkred;
+}
